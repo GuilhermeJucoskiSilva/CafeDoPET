@@ -1,0 +1,62 @@
+* { /* Resetar todos as propriedade da página */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+  background-color: gray;
+}
+
+header {
+  z-index: = 3;
+  height: 100px;
+  position: fixed;
+  width: 1205px;
+  background-color: white;
+  color: #A08963;
+  font-family: Lexend, Monospace;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 250px;
+  width: 1185px;
+  height: 76;
+  
+}
+header nav .java{
+  height: 40px;
+  width: 48px;
+  align-items: center
+  justify-content: center;
+}
+header nav .titulo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+header nav .titulo ul {
+  display: flex;
+  gap: 68px
+}
+header nav .icones {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header nav .icones .insta {
+  height: = 20px;
+  width: 48px;
+}
+h1{
+  font-size: 36px;
+}
