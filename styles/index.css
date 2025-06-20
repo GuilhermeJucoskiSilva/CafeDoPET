@@ -21,22 +21,23 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  box-shadow: 0px 0px 0px 1px;
 }
+
 header nav{
+  padding: 0px 13px;
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 310px;
   width: 1260px;
-  height: 76;
-  
+  height: 76px;
+  justify-content: space-between;
 }
+
 header nav .java{
   height: 40px;
   width: 48px;
-  align-items: center;
-  justify-content: center;
 }
+
 header nav .titulo{
   display: flex;
   flex-direction: column;
@@ -44,11 +45,13 @@ header nav .titulo{
   justify-content: center;
   gap: 16px;
 }
+
 header nav .titulo ul {
   font-size: 12px;
   display: flex;
   gap: 68px
 }
+
 header nav .icones {
   display: flex;
   align-items: center;
@@ -67,12 +70,95 @@ main .Hero {
   justify-content: center;
   gap: 16px;
 }
-main .Hero .texto_cafe{
+main .Hero .texto_java_beans{
   width: 500px;
   font-family: Lexend, monospace;
   font-size: 12px;
 }
 
+.Sobre{
+  padding: 24px 0px;
+  background-color: white;
+  font-family: Lexend, monospace;
+  width: 1280px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+main .Sobre .nosso_cafe{
+  background-color: #C9B194;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Sobre .nosso_ambiente{
+  background-color: #C9B194;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.titulo_texto{
+  padding: 0px 96px;
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+}
+.titulo_texto p{
+  font-size: 16px;
+}
+
+.cardapio{
+  font-family: inter, monospace;
+  background-color: white;
+  width: 1280px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.clicavel{
+  display: flex;
+  flex-direction: column;
+  gap: 29px;
+  align-items: center;
+  justify-content: center;
+  padding: 29px 0px;
+}
+.clicavel h2{
+  color:#A08963;
+}
+.clicavel ul{
+  display: flex;
+  flex-direction: line;
+  gap: 127px;
+  align-items: center;
+  justify-content: center;
+}
+.clicavel ul li{
+  width: 71px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.clicavel ul li p{
+  text-align: center;
+}
+.imagem_new{
+  position: relative;
+}
+.imagem_new .new{
+  z-index: 2;
+  position: absolute;
+  left: 40px;
+  top: 5px;
+}
+
 h1{
   font-size: 36px;
+}
+h2{
+  font-size: 24px;
 }
